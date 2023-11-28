@@ -1,0 +1,39 @@
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    width: 800px;
+    background: rgb(235, 171, 224) url(/assets/fundo-horizontal.jpg) repeat-x;
+    float: left;
+}
+
+ul li {
+    float: left;
+}
+
+ul a {
+    text-decoration: none;
+    display: block;
+    padding: 0 2em;
+    line-height: 2em;
+    color: rgb(65, 82, 177);
+    background: url(/assets/divisor.jpg) repeat-y left top;
+    border: 1px solid rgb(235, 171, 224);
+}
+
+ul .primeiro a {
+    background: none;
+}
+
+ul a:hover {
+    color: rgb(242, 242, 249);
+    background: rgb(225, 170, 232);
+}
+
+#home #navegacao .home a,
+#sobre #navegacao .sobre a,
+#servicos #navegacao .servicos a {
+    background-position: right bottom;
+    background: rgb(225, 170, 232);
+    color: rgb(242, 242, 249);
+}
